@@ -1,0 +1,15 @@
+[package]
+name = "disaster"
+version = "1.0.0"
+authors = []
+
+[addresses]
+admin_address="19e69cef4912141bca40c0ac643684683de4c5ad7ed857450a8cb518c94ffb8a"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
